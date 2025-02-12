@@ -1,0 +1,135 @@
+
+[playerConfig]
+
+	[playerConfig.claims]
+		bonusChunkForceloads = 0
+		color = 0
+		usedSub = "main"
+		usedServerSub = "main"
+		name = ""
+		bonusChunkClaims = 0
+		protectClaimedChunks = true
+
+		[playerConfig.claims.protection]
+			netherPortalsPlayers = 1
+			projectileHitHostileSpawn = 1
+			pistonBarrier = true
+			spawnersHostile = false
+			entitiesFromPlayers = 1
+			netherPortalsMobs = 1
+			itemPickupPlayers = 0
+			playersFromMobs = false
+			fromAllyParties = true
+			entitiesRedirect = true
+			neighborChunksItemUse = true
+			itemPickupMobs = 0
+			tripwireFromOther = 1
+			entitiesFromExplosions = true
+			itemTossRedirect = true
+			playerLightning = 1
+			entitiesFromMobs = 1
+			playersFromPlayers = false
+			platesFromOther = 1
+			blocksFromOther = 1
+			dispenserBarrier = true
+			entitiesFromOther = 1
+			netherPortalsOther = 1
+			naturalSpawnHostile = false
+			fromParty = false
+			blocksRedirect = true
+			projectileHitFriendlySpawn = 1
+			mobLoot = 0
+			overrideMobGriefingRule = true
+			fluidBarrier = true
+			tripwireFromPlayers = 1
+			cropTrample = true
+			blocksFromExplosions = true
+			playersFromOther = false
+			tripwireFromMobs = 1
+			chorusFruitTeleport = 1
+			buttonsFromProjectiles = 1
+			xpPickup = 0
+			itemUse = 1
+			spawnersFriendly = false
+			platesFromPlayers = 1
+			entitiesFromFire = true
+			raids = true
+			itemPickupRedirect = false
+			blocksFromMobs = 1
+			playersRedirect = true
+			targetsFromProjectiles = 1
+			blocksFromPlayers = 1
+			itemTossPlayers = 0
+			platesFromMobs = 1
+			fromFrostWalking = 1
+			itemTossMobs = 0
+			itemTossOther = 0
+			playerDeathLoot = 0
+			naturalSpawnFriendly = false
+			fromFireSpread = true
+
+			[playerConfig.claims.protection.exceptionGroups]
+
+				[playerConfig.claims.protection.exceptionGroups.item]
+
+					[playerConfig.claims.protection.exceptionGroups.item.interact]
+						Books = 0
+
+				[playerConfig.claims.protection.exceptionGroups.block]
+
+					[playerConfig.claims.protection.exceptionGroups.block.break]
+						Crops = 0
+
+					[playerConfig.claims.protection.exceptionGroups.block.interact]
+						Ender_Chests = 0
+						Enchanting_Tables = 0
+						Beds = 0
+						Chests = 0
+						Barrels = 0
+						Furnaces = 0
+						Beacons = 0
+						Hoppers = 0
+						Doors = 0
+						Shulker_Boxes = 0
+						Anvils = 0
+						Controls = 0
+						Dispenser-like = 0
+
+				[playerConfig.claims.protection.exceptionGroups.entity]
+
+					[playerConfig.claims.protection.exceptionGroups.entity.droppedItemAccess]
+						Villagers = 0
+						Foxes = 0
+						Piglins = 0
+
+					[playerConfig.claims.protection.exceptionGroups.entity.blockAccess]
+						Villagers = 0
+
+					[playerConfig.claims.protection.exceptionGroups.entity.barrier]
+						Ender_Pearls = 0
+						Players = 0
+
+					[playerConfig.claims.protection.exceptionGroups.entity.handInteract]
+						Item_Frames = 0
+
+					[playerConfig.claims.protection.exceptionGroups.entity.break]
+						Livestock = 0
+
+					[playerConfig.claims.protection.exceptionGroups.entity.interact]
+						Armor_Stands = 0
+						Traders = 0
+
+					[playerConfig.claims.protection.exceptionGroups.entity.entityAccess]
+						Zombies = 0
+
+		[playerConfig.claims.forceload]
+			offlineForceload = false
+			enabled = true
+
+	[playerConfig.parties]
+		shareLocationWithParty = true
+		shareLocationWithMutualAllyParties = false
+		name = ""
+		receiveLocationsFromMutualAllyParties = false
+		receiveLocationsFromParty = true
+

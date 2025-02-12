@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "bba1056c-9564-4e86-b8e6-5fbdad19831d",
+    "name": "linWhite",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2de28c91-c8ca-4d53-a16b-e20ff5aa26d6",
+    "name": "HankCH",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "9a09c6ff-e4ea-407c-8126-2697469cb51f",
+    "name": "Fendada",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
